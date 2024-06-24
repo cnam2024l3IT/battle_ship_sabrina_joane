@@ -34,4 +34,12 @@ public class Board {
         // Logique pour vérifier si tous les navires sont coulés
         return false;
     }
+
+    public int getSize() {
+        return 0;
+    }
+
+    public Ship[] getShips() {
+        return null;
+    }
 }
