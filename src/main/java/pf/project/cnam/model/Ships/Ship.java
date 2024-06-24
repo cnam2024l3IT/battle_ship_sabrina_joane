@@ -1,8 +1,8 @@
 package pf.project.cnam.model.Ships;
 
 public class Ship {
-    private String type;
-    private int size;
+    private final String type;
+    private final int size;
 
     public Ship(String type, int size) {
         this.type = type;
