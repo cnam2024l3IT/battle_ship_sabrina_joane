@@ -1,19 +1,26 @@
 package pf.project.cnam.model.Ships;
 
 public class Ship {
-    private final String type;
-    private final int size;
+    private final ShipType type;
+    private boolean isHit;
 
-    public Ship(String type, int size) {
+    public Ship(ShipType type) {
         this.type = type;
-        this.size = size;
     }
 
-    public String getType() {
+    public ShipType getType() {
         return type;
     }
 
     public int getSize() {
-        return size;
+        return type.getSize();
+    }
+
+    public void hit() {
+        this.isHit = true;
+    }
+
+    public boolean isSunk() {
+        return false;
     }
 }

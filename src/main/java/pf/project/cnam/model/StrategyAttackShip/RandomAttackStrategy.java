@@ -1,6 +1,7 @@
 package pf.project.cnam.model.StrategyAttackShip;
 
 import pf.project.cnam.model.Board;
+
 import java.util.Random;
 
 public class RandomAttackStrategy implements AttackStrategy {
@@ -9,9 +10,13 @@ public class RandomAttackStrategy implements AttackStrategy {
 
     @Override
     public void attack(Board board) {
-        // base logique pour l'attaque aléatoire
-        int x = random.nextInt(board.getSize());
-        int y = random.nextInt(board.getSize());
+        int size = board.getSize();
+        int x, y;
+        do {
+            x = random.nextInt(size);
+            y = random.nextInt(size);
+        } while (board.getCell(x, y).isHit());
+
         board.attack(x, y);
     }
 }

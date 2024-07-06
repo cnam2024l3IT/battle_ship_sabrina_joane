@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecfed36f-20c3-46d7-a426-65f6e472915b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/AIBoardDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/AIBoardDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/BoardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/BoardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/GameMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/GameMemento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/HumanBoardDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/HumanBoardDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Ships/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Ships/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyAttackShip/RandomAttackStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyAttackShip/RandomAttackStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyPlacementShip/RandomPlacementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyPlacementShip/RandomPlacementStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +27,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="joane" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -37,16 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +70,79 @@
       <option name="presentableId" value="Default" />
       <updated>1719203652664</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit : add read.me file on new remote https://github.com/cnam2024l3IT/battle_ship_sabrina_joane.git">
+      <option name="closed" value="true" />
+      <created>1719209591908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719209591908</updated>
+    </task>
+    <task id="LOCAL-00002" summary="file auto-generated by intellij project with maven etc.">
+      <option name="closed" value="true" />
+      <created>1719209861054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719209861054</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add model directory and create imlements  9 basic model and 1 interface model (BoardDisplay)">
+      <option name="closed" value="true" />
+      <created>1719210369552</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719210369552</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add model directory and imlements 11 basic model and 1 interface model (BoardDisplay) and 1 enum (Orientation)">
+      <option name="closed" value="true" />
+      <created>1719210572292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719210572292</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add model directory and imlements 11 basic model and 1 interface model (BoardDisplay) and 1 enum (Orientation)">
+      <option name="closed" value="true" />
+      <created>1719210614450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719210614450</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add method getSize() and getShips on model board">
+      <option name="closed" value="true" />
+      <created>1719213973314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719213973314</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add mention final to declaration type and size">
+      <option name="closed" value="true" />
+      <created>1719214055295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719214055295</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implementation Strategy pattern interface and class">
+      <option name="closed" value="true" />
+      <created>1719214140520</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719214140520</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implementation Strategy pattern interface and class">
+      <option name="closed" value="true" />
+      <created>1719214154773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719214154773</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,5 +155,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit : add read.me file on new remote https://github.com/cnam2024l3IT/battle_ship_sabrina_joane.git" />
+    <MESSAGE value="file auto-generated by intellij project with maven etc." />
+    <MESSAGE value="Add model directory and create imlements  9 basic model and 1 interface model (BoardDisplay)" />
+    <MESSAGE value="Add model directory and imlements 11 basic model and 1 interface model (BoardDisplay) and 1 enum (Orientation)" />
+    <MESSAGE value="add method getSize() and getShips on model board" />
+    <MESSAGE value="add mention final to declaration type and size" />
+    <MESSAGE value="Implementation Strategy pattern interface and class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementation Strategy pattern interface and class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pf/project/cnam/view/ConsoleView.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

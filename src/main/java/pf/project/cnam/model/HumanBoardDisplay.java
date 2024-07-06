@@ -1,8 +1,11 @@
 package pf.project.cnam.model;
 
-public class HumanBoardDisplay implements BoardDisplay {
+import pf.project.cnam.model.Cell;
+
+public class HumanBoardDisplay extends AbstractBoardDisplay {
+
     @Override
-    public void displayBoard(Board board) {
-        // Logique pour afficher le plateau pour un joueur humain
+    protected boolean shouldDisplayShip(Cell cell) {
+        return cell.hasShip();
     }
 }
