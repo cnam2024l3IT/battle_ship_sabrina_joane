@@ -15,19 +15,36 @@ public class Player {
         this.board = board;
     }
 
+    public Board getBoard() {
+        return board;
+    }
+
     public PlayerType getPlayerType() {
         return playerType;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public BoardDisplay getBoardDisplay() {
+        return boardDisplay;
     }
 
     public void setBoardDisplay(BoardDisplay boardDisplay) {
         this.boardDisplay = boardDisplay;
     }
 
-    public Board getBoard() {
-        return board;
+    public void displayBoard() {
+        if (boardDisplay != null) {
+            boardDisplay.displayBoard(board);
+        }
     }
 
-    public String getName() {
-        return name;
+    public boolean attack(int x, int y) {
+        return board.attack(x, y);
     }
+
+
 }

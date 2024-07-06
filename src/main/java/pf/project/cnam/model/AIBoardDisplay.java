@@ -1,8 +1,11 @@
 package pf.project.cnam.model;
 
-public class AIBoardDisplay implements BoardDisplay {
+public class AIBoardDisplay extends AbstractBoardDisplay {
     @Override
-    public void displayBoard(Board board) {
-        // Logique pour afficher le plateau pour une IA
+    protected boolean shouldDisplayShip(Cell cell) {
+        // Logique pour l'IA, par exemple, afficher un navire coulé
+        return cell.isHit() && cell.hasShip();
     }
+
+
 }

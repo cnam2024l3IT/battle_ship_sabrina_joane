@@ -1,5 +1,6 @@
 package pf.project.cnam.model;
 
+import java.util.Objects;
 
 public class Coordinate {
     private int x;
@@ -16,5 +17,23 @@ public class Coordinate {
 
     public int getY() {
         return y;
+    }
+
+    @Override
+    public String toString() {
+        return "(" + x + ", " + y + ")";
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Coordinate that = (Coordinate) obj;
+        return x == that.x && y == that.y;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y);
     }
 }

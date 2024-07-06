@@ -1,5 +1,4 @@
 package pf.project.cnam.model;
-
 import java.util.List;
 import java.util.Map;
 
@@ -9,35 +8,26 @@ public class GameMemento {
     private Player currentTurn;
     private Map<Player, BoardState> boardStates;
 
-    public GameState getState() {
-        return state;
+    public GameMemento(GameState state, List<Player> players, Player currentTurn, Map<Player, BoardState> boardStates) {
+        this.state = state;
+        this.players = players;
+        this.currentTurn = currentTurn;
+        this.boardStates = boardStates;
     }
 
-    public void setState(GameState state) {
-        this.state = state;
+    public GameState getState() {
+        return state;
     }
 
     public List<Player> getPlayers() {
         return players;
     }
 
-    public void setPlayers(List<Player> players) {
-        this.players = players;
-    }
-
     public Player getCurrentTurn() {
         return currentTurn;
     }
 
-    public void setCurrentTurn(Player currentTurn) {
-        this.currentTurn = currentTurn;
-    }
-
     public Map<Player, BoardState> getBoardStates() {
         return boardStates;
-    }
-
-    public void setBoardStates(Map<Player, BoardState> boardStates) {
-        this.boardStates = boardStates;
     }
 }
