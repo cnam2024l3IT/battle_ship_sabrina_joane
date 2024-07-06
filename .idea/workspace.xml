@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecfed36f-20c3-46d7-a426-65f6e472915b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/AIBoardDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/AIBoardDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/BoardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/BoardState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/GameMemento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/GameMemento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/HumanBoardDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/HumanBoardDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Ships/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/Ships/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyAttackShip/RandomAttackStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyAttackShip/RandomAttackStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyPlacementShip/RandomPlacementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pf/project/cnam/model/StrategyPlacementShip/RandomPlacementStrategy.java" afterDir="false" />
-    </list>
+    <list default="true" id="ecfed36f-20c3-46d7-a426-65f6e472915b" name="Changes" comment="Mise en place de la partie initialisation du jeu : les joueurs plateau des joueurs, les stratégies de placemment et d'attaque." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "joane",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -142,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719214154773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Mise en place de la partie initialisation du jeu : les joueurs plateau des joueurs, les stratégies de placemment et d'attaque.">
+      <option name="closed" value="true" />
+      <created>1720230877762</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720230877762</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Mise en place de la partie initialisation du jeu : les joueurs plateau des joueurs, les stratégies de placemment et d'attaque.">
+      <option name="closed" value="true" />
+      <created>1720230958931</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720230958931</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,17 +166,7 @@
     <MESSAGE value="add method getSize() and getShips on model board" />
     <MESSAGE value="add mention final to declaration type and size" />
     <MESSAGE value="Implementation Strategy pattern interface and class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementation Strategy pattern interface and class" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pf/project/cnam/view/ConsoleView.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Mise en place de la partie initialisation du jeu : les joueurs plateau des joueurs, les stratégies de placemment et d'attaque." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de la partie initialisation du jeu : les joueurs plateau des joueurs, les stratégies de placemment et d'attaque." />
   </component>
 </project>
